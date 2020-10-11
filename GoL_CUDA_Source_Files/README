@@ -1,0 +1,18 @@
+================== Conway's Game of Life implemented in CUDA =========================
+
+
+  ==================== Andrew Pappas sID: 1115201500201 ==========================
+
+Compile:
+==========
+    nvcc life.cu -o life 
+
+Run:
+====
+    ./life [dimensions][generations]
+        
+        example: ./life 10 5 
+
+        will generate a 10x10 grid of 5 Time Steps (generations).
+
+=================================  Thank you! ==================================        

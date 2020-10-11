@@ -1,0 +1,10 @@
+------------------------- Conway's Game of Life in C ---------------------------
+
+    You can cause the program to output the Game of Life grid at each time step
+by uncommenting the relevant line in the Makefile.
+
+    The code can be made into serial, MPI, OpenMP, and hybrid executables. To
+compile each of these, enter 'make serial', 'make mpi', 'make openmp', or
+'make hybrid', respectively.  To remove all executables from the directory,
+enter 'make clean'.  To re-make all of the executables at once, enter 'make
+all'.
